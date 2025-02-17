@@ -14,4 +14,6 @@ public class Exceptions {
         return new RuntimeException(msg);
     }
 
+    public static IllegalArgumentException promptTemplateVariablesMissing() {return new IllegalArgumentException("prompt template variables missing");}
+
 }
